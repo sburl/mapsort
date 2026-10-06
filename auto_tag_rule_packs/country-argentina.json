@@ -1,0 +1,5 @@
+[
+  {"pattern": "\\b(parrill|asado|parilla)\\b", "category": 1, "reason": "argentina_barbecue"},
+  {"pattern": "\\b(bodega|vi\u00f1a|vinoteca)\\b", "category": 1, "reason": "argentina_wine_spot"},
+  {"pattern": "\\b(plaza|cerro|catedral)\\b", "category": 7, "reason": "argentina_landmarks"}
+]

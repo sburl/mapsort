@@ -1,0 +1,4 @@
+# Test tooling used by CI (.github/workflows/ci.yml).
+# pytest collects both plain-function tests and stdlib unittest TestCases,
+# so it runs the whole suite where `unittest discover` saw only part of it.
+pytest>=8.0

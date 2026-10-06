@@ -1,0 +1,4 @@
+[
+  {"pattern": "\\b(street|historic|museum|gallery|monument)\\b", "category": 7, "reason": "city_break_landmarks"},
+  {"pattern": "\\b(night market|flea market|craft market|souvenir)\\b", "category": 9, "reason": "city_break_shopping"}
+]

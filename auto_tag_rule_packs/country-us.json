@@ -1,0 +1,4 @@
+[
+  {"pattern": "\\b(bbq|barbecue|burger|taco)\\b", "category": 1, "reason": "north_american_eats"},
+  {"pattern": "\\b(stadium|arena|ballpark)\\b", "category": 14, "reason": "sports_venue"}
+]

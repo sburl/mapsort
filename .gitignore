@@ -1,0 +1,32 @@
+# Raw Takeout export — large, and entirely personal data
+takeout/
+takeout-*/
+
+# Everything the pipeline generates. Ignored wholesale rather than file
+# by file: these are your saved places, including where you and your
+# friends live, and nothing here belongs in a public repo.
+output/
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Playwright / Chromium
+playwright-chromium/
